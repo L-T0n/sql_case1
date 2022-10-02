@@ -4,11 +4,11 @@
 
 /* Dataset SAMPLE downloaded from Kaggle 
 COLUMNS		||	Their data
-____________||_______________________________________________
+________________||_______________________________________________
 title 		||  EMS: BUILDING FIRE
 descr 		||  PRESIDENTIAL BLVD & E CITY AVE;  LOWER MERION; Station 313; 2015-12-14 @ 16:12:09;
-time_stamp  || 	12/14/2015 16:12:09
-twp			|| 	LOWER MERION
+time_stamp      || 	12/14/2015 16:12:09
+twp		|| 	LOWER MERION
 addr		||	KEIM ST & BICKEL RD
 zip 		||	19004
 
