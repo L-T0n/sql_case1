@@ -2,7 +2,7 @@
 
 
 
-//* Dataset SAMPLE downloaded from Kaggle 
+/* Dataset SAMPLE downloaded from Kaggle 
 COLUMNS		||	Their data
 ____________||_______________________________________________
 title 		||  EMS: BUILDING FIRE
@@ -55,7 +55,7 @@ select ds.months
 , sum (ds.counts) as sum_occurences
 from deta ds
 group_by ds.months , ds.years
-order by sum_ocurences desc
+order by sum_occurences desc
 
 
 
@@ -66,7 +66,7 @@ select ds.Day_of_the_Week
 , sum (ds.counts) as sum_occurences
 from deta ds
 group_by ds.Day_of_the_Week  ,ds.years
-order by sum_ocurences desc
+order by sum_occurences desc
 
 
 /* zip code with most building fires */
@@ -76,7 +76,7 @@ select ds.Zip_Code
 , sum (ds.counts) as sum_occurences
 from deta ds
 group_by ds.Zip_Code , ds.years
-order by sum_ocurences desc
+order by sum_occurences desc
 
 /* Part of the day and Month with mos occurences */
 
